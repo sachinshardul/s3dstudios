@@ -39,12 +39,12 @@ sachin shardul
 
 
 <!-- Define app icon MAIN ROOT Platform. -->
-<!--
+
 <icon src="icon.png" />
--->
+
 
 <!-- Define app icon ANDROID Platform. -->
-<!--
+
 
 <icon src="icons/android/icon-36-ldpi.png" gap:platform="android" gap:density="ldpi" />
 
@@ -53,20 +53,20 @@ sachin shardul
 <icon src="icons/android/icon-72-hdpi.png" gap:platform="android" gap:density="hdpi" />
 
 <icon src="icons/android/icon-96-xhdpi.png" gap:platform="android" gap:density="xhdpi" />
--->
+
 
 <!-- Define app splash screen for ANDROID platform. -->
-<!--
 
-<gap:splash src="splash/android/screen-ldpi-portrait.png" gap:platform="android" gap:density="ldpi" />
 
-<gap:splash src="splash/android/screen-mdpi-portrait.png" gap:platform="android" gap:density="mdpi" />
+<gap:splash src="splash/android/screen-ldpi-portrait.jpg" gap:platform="android" gap:density="ldpi" />
 
-<gap:splash src="splash/android/screen-hdpi-portrait.png" gap:platform="android" gap:density="hdpi" />
+<gap:splash src="splash/android/screen-mdpi-portrait.jpg" gap:platform="android" gap:density="mdpi" />
 
-<gap:splash src="splash/android/screen-xhdpi-portrait.png" gap:platform="android" gap:density="xhdpi" />
+<gap:splash src="splash/android/screen-hdpi-portrait.jpg" gap:platform="android" gap:density="hdpi" />
 
--->
+<gap:splash src="splash/android/screen-xhdpi-portrait.jpg" gap:platform="android" gap:density="xhdpi" />
+
+
 <accesss origin="*" />
 
 </widget>
