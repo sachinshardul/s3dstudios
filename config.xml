@@ -6,21 +6,21 @@
 
 xmlns:gap = "http://phonegap.com/ns/1.0"
 
-id = "com.sachin.s3dstudios"
+id = "com.sachin.MedicalCatalogue"
 
 version = "1.0.0">
 
-<name>S3D Studios</name>
+<name>Medical Catalogue</name>
 
 <description>
 
-S3D Studios profile app
+Product catalogue sample
 
 </description>
 
-<author href="http://www.s3dstudios.com" email="sachinsshardul@gmail.com">
+<author href="http://www.fetal.com" email="grdevore@gmail.com">
 
-sachin shardul
+Greggory R. DeVore, M.D.
 
 </author>
 
@@ -36,15 +36,11 @@ sachin shardul
 
 <gap:plugin name="com.phonegap.plugins.ChildBrowser" />
 
-
-
 <!-- Define app icon MAIN ROOT Platform. -->
 
 <icon src="icon.png" />
 
-
 <!-- Define app icon ANDROID Platform. -->
-
 
 <icon src="icons/android/icon-36-ldpi.png" gap:platform="android" gap:density="ldpi" />
 
@@ -54,9 +50,7 @@ sachin shardul
 
 <icon src="icons/android/icon-96-xhdpi.png" gap:platform="android" gap:density="xhdpi" />
 
-
 <!-- Define app splash screen for ANDROID platform. -->
-
 
 <gap:splash src="splash/android/screen-ldpi-portrait.png" gap:platform="android" gap:density="ldpi" />
 
