@@ -19,6 +19,19 @@ $(window).load(function() {
   });
 });
 </script>
+ <script type="text/javascript" charset="utf-8">
+
+    // Wait for Cordova to load
+    //
+    document.addEventListener("deviceready", onDeviceReady, false);
+
+    // Cordova is ready
+    //
+    function onDeviceReady() {
+        navigator.splashscreen.show();
+    }
+
+    </script>
 
 </head> 
 <body> 
